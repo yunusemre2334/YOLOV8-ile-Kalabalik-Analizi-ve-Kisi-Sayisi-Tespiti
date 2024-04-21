@@ -47,7 +47,7 @@ git clone Merhaba
 
 ```shell
 
-git clone Merhaba
+python yolov8_video_track.py
 
 ```
 
