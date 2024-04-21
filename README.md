@@ -60,6 +60,14 @@ python yolov8_yogunluk_analizi_ilgi_alanı.py -m best.pt -s e.mp4 -r1 750 40 125
 
 ```
 
+Daha da ileri gidip mouse ile tıkladığımız noktada verdiğimiz en ve boy oranına göre otomatik dikdörtgen çizelim. Ardından çizilen dikdörtgen içinde hem kişi sayısı hem de yoğunluk analizi yapalım.
+
+```shell
+
+python yolov8_yogunluk_analizi_ilgi_alanı.py -m best.pt -s e.mp4 -r1 750 40 1250 420 -r2 300 40 700 420
+
+```
+
 
 Bu gibi çalışmalar için beğenip takip edebilirsiniz.
 
