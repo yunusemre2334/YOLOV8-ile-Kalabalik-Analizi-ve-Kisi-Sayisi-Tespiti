@@ -42,6 +42,15 @@ python yolov8_yogunluk_analizi.py -m best.pt -s e.mp4
 
 <img src="./resimler/resim2.jpeg" alt="Yolov8 ile Yoğunluk Analizi" width="1280">
 
+Görüntümüz üzerindeki insan sayısını hesaplamak için aşağıdaki yazılımı çalıştıralım
+
+```shell
+
+python yolov8_kisi_sayisi.py -m best.pt -s e.mp4
+
+```
+
+
 Şimdi de gelin yazılımımızı ilgi alanları üzerinde deneyelim
 
 
