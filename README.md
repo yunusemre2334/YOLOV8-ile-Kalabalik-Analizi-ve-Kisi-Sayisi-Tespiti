@@ -10,7 +10,7 @@ Hassas Kalibrasyon: TensorRT, hassas kalibrasyonu destekleyerek modellerin belir
 
 Katman Füzyonu: TensorRT optimizasyon süreci, bir sinir ağının birden fazla katmanının tek bir işlemde birleştirildiği katman füzyonunu içerir. Bu, bellek erişimini ve hesaplamayı en aza indirerek hesaplama yükünü azaltır ve çıkarım hızını artırır.
 
-
+<img src="./resimler/resim11.png" alt="Yolov8 ile Yoğunluk Analizi" width="1280">
 
 
 Dinamik Tensör Bellek Yönetimi: TensorRT, çıkarım sırasında tensör bellek kullanımını verimli bir şekilde yöneterek bellek ek yükünü azaltır ve bellek tahsisini optimize eder. Bu da GPU belleğinin daha verimli kullanılmasını sağlar.
