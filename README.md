@@ -61,7 +61,8 @@ python yolov8_yogunluk_analizi_ilgi_alanı.py -m best.pt -s e.mp4
 
 ```
 
-İlgi alanlarının koordinatlarını da çalşmanıza göre sizin vermeniz için aşağıdaki bloğu çalıştırabilirsiniz.
+
+İlgi alanlarının koordinatlarını da çalışmanıza göre sizin vermeniz için aşağıdaki bloğu çalıştırabilirsiniz.
 
 
 ```shell
@@ -69,6 +70,8 @@ python yolov8_yogunluk_analizi_ilgi_alanı.py -m best.pt -s e.mp4
 python yolov8_yogunluk_analizi_ilgi_alanı.py -m best.pt -s e.mp4 -r1 750 40 1250 420 -r2 300 40 700 420
 
 ```
+<img src="./resimler/resim13.jpeg" alt="Yolov8 ile Yoğunluk Analizi" width="1280">
+
 
 Daha da ileri gidip mouse ile tıkladığımız noktada verdiğimiz en ve boy oranına göre otomatik dikdörtgen çizelim. Ardından çizilen dikdörtgen içinde hem kişi sayısı hem de yoğunluk analizi yapalım.
 
@@ -78,6 +81,7 @@ python mouse_roi_yogunluk_analizi.py -m best.pt -s e.mp4 -r1 750 40 1250 420 -r2
 
 ```
 
+<img src="./resimler/resim15.jpeg" alt="Yolov8 ile Yoğunluk Analizi" width="1280">
 
 Bu gibi çalışmalar için beğenip takip edebilirsiniz.
 
