@@ -4,9 +4,23 @@ YOLO(You Only Look Once), nesne algılama için kullanılan bir derin öğrenme 
 
 <img src="./resimler/resim1.jpeg" alt="Yolov8 ile Yoğunluk Analizi" width="1280">
 
+Bu uygulamayı ister tüm alanda bir yoğunluk tespiti için ister spesifik bir alana özgü yapmak isteyin. Eğer tüm görüntü üzerinde bir yoğunluk analizi yapmak istiyorsanız aşağıdaki kod bloğunu herhangi bir python idesinde terminale yapıştırabilirsiniz
+
 ```shell
 
-echo Merhaba
+git clone Merhaba
 
 ```
+
+Bunu çalıştırdıktan sonra gelin kodumuzu çalıştıralım
+
+
+```shell
+
+git clone Merhaba
+
+```
+
+
+Bu gibi çalışmalar için beğenip takip edebilirsiniz.
 
