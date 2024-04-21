@@ -10,7 +10,7 @@ Eğer tüm görüntü üzerinde bir yoğunluk analizi yapmak istiyorsanız aşa�
 
 ```shell
 
-git clone Merhaba
+git clone https://github.com/yunusemre2334/yolov8
 
 ```
 
