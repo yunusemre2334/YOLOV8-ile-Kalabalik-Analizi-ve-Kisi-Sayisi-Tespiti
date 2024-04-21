@@ -36,7 +36,7 @@ Bunu çalıştırdıktan sonra gelin kodumuzu çalıştıralım
 
 ```shell
 
-git clone Merhaba
+python yolov8_yogunluk_analizi.py -m best.pt -s e.mp4
 
 ```
 
@@ -47,7 +47,16 @@ git clone Merhaba
 
 ```shell
 
-python yolov8_video_track.py
+python yolov8_yogunluk_analizi_ilgi_alanı.py -m best.pt -s e.mp4
+
+```
+
+İlgi alanlarının koordinatlarını da çalşmanıza göre sizin vermeniz için aşağıdaki bloğu çalıştırabilirsiniz.
+
+
+```shell
+
+python yolov8_yogunluk_analizi_ilgi_alanı.py -m best.pt -s e.mp4 -r1 750 40 1250 420 -r2 300 40 700 420
 
 ```
 
