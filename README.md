@@ -49,6 +49,7 @@ Görüntümüz üzerindeki insan sayısını hesaplamak için aşağıdaki yazı
 python yolov8_kisi_sayisi.py -m best.pt -s e.mp4
 
 ```
+<img src="./resimler/resim17.jpeg" alt="Yolov8 ile Yoğunluk Analizi" width="1280">
 
 
 Şimdi de gelin yazılımımızı ilgi alanları üzerinde deneyelim
