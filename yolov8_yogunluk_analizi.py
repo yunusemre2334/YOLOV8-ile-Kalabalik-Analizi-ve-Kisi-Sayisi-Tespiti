@@ -6,18 +6,18 @@ import random
 from collections import defaultdict
 import argparse
 
-# Constructing the argument parser
+
 ap = argparse.ArgumentParser()
 ap.add_argument("-m", "--model", required=True, help="Path to YOLO model file (.onnx or .pt)")
 ap.add_argument("-s", "--source", default="e.mp4", help="Path to input video file")
 args = vars(ap.parse_args())
 
-# Loading YOLO model
+
 model = YOLO(args["model"])
 
-# Opening video capture
+
 if args["source"] == "0":
-    video_path = 0  # Webcam
+    video_path = 0 
 else:
     video_path = args["source"]
 
