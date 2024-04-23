@@ -9,7 +9,7 @@ import argparse
 
 ap = argparse.ArgumentParser()
 ap.add_argument("-m", "--model", required=True, help="Path to YOLO model file (.onnx or .pt)")
-ap.add_argument("-s", "--source", default="e.mp4", help="Path to input video file")
+ap.add_argument("-s", "--source", default= 0, help="Path to input video file")
 args = vars(ap.parse_args())
 
 
