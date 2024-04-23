@@ -7,7 +7,7 @@ import imutils
 import argparse
 
 def draw_rectangle(event, x, y, flags, param):
-    global ix, iy, drawing, mode
+    global ix, iy, drawing
 
     if event == cv2.EVENT_LBUTTONDOWN:
         drawing = True
@@ -40,9 +40,9 @@ def draw_rectangle(event, x, y, flags, param):
         cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 1)
         cv2.imshow("frame", frame)
         param["rect_coords"] = [x1, y1, x2, y2]
-        param["count"] = 0  # Add initial count of people within the rectangle
+        param["count"] = 0 
 
-# Constructing the argument parser
+
 ap = argparse.ArgumentParser()
 ap.add_argument("-m", "--model", required=True, help="Path to YOLO model file (.onnx or .pt)")
 ap.add_argument("-s", "--source", default="e.mp4", help="Path to input video file")
@@ -50,12 +50,12 @@ ap.add_argument("-w", "--width", type=int, default=300, help="Width of the recta
 ap.add_argument("-H", "--height", type=int, default=300, help="Height of the rectangle")
 args = vars(ap.parse_args())
 
-# Loading YOLO model
+
 model = YOLO(args["model"])
 
-# Opening video capture
+
 if args["source"] == "0":
-    video_path = 0  # Webcam
+    video_path = 0  
 else:
     video_path = args["source"]
 
@@ -67,12 +67,12 @@ font_scale = 1.5
 
 track_history = defaultdict(lambda: [])
 
-drawing = False  # true if mouse is pressed
+drawing = False  
 ix, iy = -1, -1
 
 cv2.namedWindow("frame")
 
-# Store rectangle dimensions in a dictionary
+
 rect_params = {"width": args["width"], "height": args["height"]}
 
 cv2.setMouseCallback("frame", draw_rectangle, rect_params)
