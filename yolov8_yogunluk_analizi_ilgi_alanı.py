@@ -9,7 +9,7 @@ import argparse
 
 ap = argparse.ArgumentParser()
 ap.add_argument("-m", "--model", required=True, help="Path to YOLO model file (.onnx or .pt)")
-ap.add_argument("-s", "--source", default="e.mp4", help="Path to input video file")
+ap.add_argument("-s", "--source", default= 0, help="Path to input video file")
 ap.add_argument("-r1", "--region1", nargs='+', type=int, default=[750, 40, 1250, 420], help="Coordinates of region 1 (x1 y1 x2 y2)")
 ap.add_argument("-r2", "--region2", nargs='+', type=int, default=[300, 40, 700, 420], help="Coordinates of region 2 (x1 y1 x2 y2)")
 args = vars(ap.parse_args())
