@@ -31,7 +31,15 @@ git clone https://github.com/yunusemre2334/yolov8
 
 ```
 
-Bunu çalıştırdıktan sonra gelin kodumuzu çalıştıralım
+Ardından kütüphanelerimizi yükleyelim
+
+```shell
+
+pip install -r requirements.txt
+
+```
+
+Bunları çalıştırdıktan sonra gelin kodumuzu çalıştıralım
 
 
 ```shell
