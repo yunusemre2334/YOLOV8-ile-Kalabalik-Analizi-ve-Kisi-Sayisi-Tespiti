@@ -1,0 +1,7 @@
+ultralytics
+opencv-python
+imutils
+collections 
+numpy 
+random
+argparse
